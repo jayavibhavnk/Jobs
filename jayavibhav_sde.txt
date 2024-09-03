@@ -1,0 +1,48 @@
+JAYAVIBHAV NIRANJAN KOGUNDI
+Los Angeles, CA 90007 | (213) 284-5490 | jniranja@usc.edu | https://www.linkedin.com/in/jayavibhav | https://jayavibhav.netlify.app
+
+EDUCATION
+University of Southern California	Los Angeles, California
+Master of Science, Computer Science (AI)	August 2024-Present
+New Horizon College of Engineering	Bangalore, India
+Bachelor of Engineering in Artificial Intelligence and Machine Learning	September 2020-June 2024
+Coursework: Data Visualization, Machine Learning, Data Science, Mathematical Statistics, Web Technologies, Cloud Computing
+
+TECHNICAL SKILLS
+Languages and Frameworks: Python, Java, JavaScript, React.JS, TensorFlow, OpenCV, Flask, Scikit-learn, PyTorch, Pandas, PySpark
+Databases and Tools: Git, Docker, AWS, Google Cloud Platform, MySQL, MongoDB, Firebase, Github Actions
+
+EXPERIENCE
+Sparkflows	(Remote) San Jose, California
+Artificial Intelligence Intern	July 2023-July 2024
+Engineered a scalable RAG pipeline with Langchain and Vector Databases, creating 15+ POCs and enhancing LLM inference costs using Caching and Memory, collaborated with tech lead  to implement the technologies
+Designed Automatic Prompt Engineering and Prompt Studio architecture with chaining, and applied metrics, hallucination detection, and benchmarking tools to improve RAG and LLM performance by 30%
+Led development of LLM agents for Sparkflows workflow automation and modification, cutting creation time by 90%, and developed a Multimodal RAG solution, improving accuracy by 50% in text and image tasks
+ 
+New Horizon College of Engineering	Bangalore, India
+Research Assistantship, Under Prof. and Head Dr. Uma Reddy N V	October 2022-March 2023
+Researched music composition and computer navigation using gesture recognition. Trained a 3-layer LSTM model on a custom dataset, achieving an average accuracy of 94%
+Implemented a Visual Attention-based Image Captioning Model using a ResNet CNN encoder and a BiLSTM decoder, with an additional ANN for visual attention, obtained a BLEU score of 0.55
+ 
+TekSystems Global Services	Bangalore, India
+Data Analyst Intern	September 2022-October 2022
+Built a web scraping tool in Python with Selenium and optimized data extraction processes, resulting in a 30% reduction in data collection time
+Retrieved and displayed data from databases using ServerSQL, ensuring secure storage of user credentials; transformed unstructured data into a structured format with Pandas and NumPy
+
+PROJECTS
+Blogify.ai - Blog Sharing Platform powered by AI                       	January 2023
+Collaborated with 3 to create a Blog platform leveraging React.js Frontend and FastAPI Backend. Featured automatic image generation using Fine-Tuned Stable Diffusion model based on key phrases. Hosted on Netlify
+Utilized MongoDB and PySpark dataframes to process data, generating analytics like keyword extraction, word clouds, and sentiment analysis leveraging NLTK and Spacy. Visualized insights applying Seaborn and Matplotlib
+Graph Retrieval Python Library                              	June 2023
+Released open-source library GraphRetrieval on PyPI for building semantic graphs with text embeddings for RAG. Supports information retrieval using Greedy, A*, and Nearest Neighbors, and integrates with Neo4j
+Authored Multimodal Graph Retrieval on PyPI, enabling linkage of images, audio, and text via BLIP-generated captions for refined  multimodal retrieval for visual large language models, enhanced Multimodal RAG performance by 35%
+Tl;DWR: Text Summarization Browser Extension                              	August 2022
+Designed a Chrome extension for summarizing and extracting insights from websites, YouTube videos, images, and playlists
+Built backend with Flask deployed on AWS, frontend with HTML, CSS, and JavaScript and web scraping with Beautiful Soup, Summarization deploying T5 LLM, supported 100+ languages. Released  on Chrome Web Store
+
+ACHIEVEMENTS
+Head of Editorial Committee, Artificial Intelligence and Machine Learning  branch. Led a team of 8 members to construct the Department Newsletter
+Achieved Top 5 in the Chainlink category and Top 10 in the FVM category at EthForAll 2023, developing an AI-powered blog sharing platform and winning a $1500 prize
+Volunteered for "Japan Day" at New Horizon College of Engineering, was responsible for organizing and guiding 25+ chief guests throughout the event, Hosted workshop on "Introduction to Blockchain" for 55 students at New Horizon College of Engineering
+Published 3 patents in Blockchain, AI, and Gesture Recognition, including innovations in image generation for blockchain based blogs and AI-driven gesture recognition applications 
+Category Winner at the Vectara Hackathon 2023 for developing an AI-driven software solution for legal applications, earning $500 and $1500 in Vectara credits
