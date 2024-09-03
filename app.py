@@ -63,26 +63,26 @@ role = st.radio(
 )
 
 # Step 2: Load your resume
-st.header("Step 2: Loading your Resumes...")
+# st.header("Step 2: Loading your Resumes...")
 resume1 = open('Jayavibhav_sde.txt', 'r').read()
 resume2 = open('Jayavibhav_data.txt', 'r').read()
 
 resume = resume1 if role == 'SDE Roles' else resume2
 
-if resume:
-    st.write("Loaded!")
+# if resume:
+#     st.write("Loaded!")
 
 # Step 3: Add extra details about yourself
-st.header("Step 3: Add Extra Details")
+# st.header("Step 3: Add Extra Details")
 extra_details = open('extra_details.txt', 'r').read()
 
-# Step 4: Job Description and Extra Fields
-st.header("Step 4: Job Description and Extra Fields")
+# Step 2: Job Description and Extra Fields
+st.header("Step 2: Job Description and Extra Fields")
 job_description = st.text_area("Job Description", height=200)
 extra_fields = st.text_area("Any extra fields you want to include", height=100)
 
-# Step 5: Customize the Cover Letter
-st.header("Step 5: Customize Your Cover Letter")
+# Step 3: Customize the Cover Letter
+st.header("Step 3: Customize Your Cover Letter")
 num_words = st.slider("Desired number of words:", 100, 1000, 500)
 
 # Initialize session state for storing the generated cover letter
