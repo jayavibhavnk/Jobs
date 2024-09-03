@@ -69,6 +69,9 @@ resume2 = open('Jayavibhav_data.txt', 'r').read()
 
 resume = resume1 if role == 'SDE Roles' else resume2
 
+if resume:
+    st.write("Loaded!")
+
 # Step 3: Add extra details about yourself
 st.header("Step 3: Add Extra Details")
 extra_details = open('extra_details.txt', 'r').read()
