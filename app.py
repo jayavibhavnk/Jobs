@@ -64,8 +64,8 @@ role = st.radio(
 
 # Step 2: Load your resume
 st.header("Step 2: Loading your Resumes...")
-resume1 = open('jayavibhav_sde.txt', 'r').read()
-resume2 = open('jayavibhav_data.txt', 'r').read()
+resume1 = open('Jayavibhav_sde.txt', 'r').read()
+resume2 = open('Jayavibhav_data.txt', 'r').read()
 
 resume = resume1 if role == 'SDE Roles' else resume2
 
