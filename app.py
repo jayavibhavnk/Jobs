@@ -1,21 +1,22 @@
 import streamlit as st
 import time
-from openai import OpenAI
+client = OpenAI()
 
-# Initialize OpenAI client
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+
+OPENAI_API_KEY = st.secrets.OPENAI_API_KEY
 
 # Function to query OpenAI
 def query_openai(query):
-    completion = client.ChatCompletion.create(
-        model="gpt-4o",
-        messages=[
-            {"role": "system", "content": "You are a helpful assistant"},
-            {"role": "user", "content": query}
-        ],
-        n=1
+    completion = client.chat.completions.create(
+    model="gpt-4o",
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant"},
+        {"role": "user", "content": query}
+    ],
+    n = 1
     )
-    return completion.choices[0].message['content']
+
+    return(completion.choices[0].message.content)
 
 # Function to create the initial prompt
 def create_prompt_1(resume, extra_details, job_description, extra_fields, num_words):
