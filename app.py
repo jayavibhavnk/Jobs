@@ -8,7 +8,7 @@ client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 # Function to query OpenAI
 def query_openai(query):
     completion = client.ChatCompletion.create(
-        model="gpt-4",
+        model="gpt-4o",
         messages=[
             {"role": "system", "content": "You are a helpful assistant"},
             {"role": "user", "content": query}
